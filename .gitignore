@@ -1,0 +1,61 @@
+# ==================================
+# Global
+# ==================================
+.DS_Store
+Thumbs.db
+*.log
+
+# ==================================
+# Node / TypeScript (Jest, ts-jest)
+# ==================================
+node_modules/
+dist/
+coverage/
+lib/
+.tmp/
+temp/
+tsconfig.tsbuildinfo
+jest.config.js
+
+# IDE specific (common for TypeScript devs)
+.vscode/
+.idea/
+
+# ==================================
+# C# / .NET
+# ==================================
+bin/
+obj/
+*.user
+*.suo
+*.cache
+*.log
+*.vspscc
+*.vssscc
+*.userprefs
+*.dbmdl
+*.pdb
+
+# Resharper
+_ReSharper*/
+*.ReSharper
+
+# Visual Studio Code and Rider project settings
+.vscode/
+.idea/
+
+# DotCover
+*.dcvr
+
+# ==================================
+# Build / Test Output
+# ==================================
+TestResults/
+*.nupkg
+*.snupkg
+*.publish
+
+# ==================================
+# GitHub Codespaces / Dev Containers
+# ==================================
+.devcontainer/
