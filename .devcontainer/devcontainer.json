@@ -1,0 +1,23 @@
+{
+  "name": "CodeKatas",
+  "image": "mcr.microsoft.com/devcontainers/dotnet:0-8.0",
+  "features": {
+    "ghcr.io/devcontainers/features/node:1": {
+      "version": "lts"
+    }
+  },
+  "postCreateCommand": "dotnet restore && npm install --prefix typescript",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-dotnettools.csharp",
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode",
+        "formulahendry.dotnet-test-explorer",
+        "github.copilot",
+        "ms-azuretools.vscode-docker",
+        "ms-vscode.vscode-typescript-tslint-plugin",
+      ]
+    }
+  }
+}
